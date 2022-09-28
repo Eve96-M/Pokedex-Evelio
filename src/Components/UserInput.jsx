@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { changeName } from '../store/slices/userName.slice';
-import '../UserInput.css'
+import '../UserInput.css';
+import Logo from '../assets/Logo.png'
 import Footer from './Footer';
 const UserInput = () => {
 
@@ -17,7 +18,7 @@ const UserInput = () => {
     return (
         <div className='input'>
             <div className='input-box'>
-                <img src="" alt="" className='pokeLogo'/>
+                <img src={Logo} alt="" className='pokeLogo'/>
                 <h1 className='input-Title'>¡Hello Trainer!</h1>
                 <h3 className='input-Message'>To continue, give me your name</h3>
                 <input type="text" value={userName} onChange={e => setUserName(e.target.value)} className='userInput' />
