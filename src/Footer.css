@@ -1,0 +1,39 @@
+.footer-Input{
+    display: flex;
+    position: absolute;
+    align-self: flex-end;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
+
+.footer-Input-Accent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: red;
+
+}
+
+.i-Circle{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.e-Circle{
+    display: flex;
+    position: relative;
+    top: 2.5rem;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: black;
+}
